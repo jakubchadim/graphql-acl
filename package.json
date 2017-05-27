@@ -1,6 +1,6 @@
 {
   "name": "graphql-acl",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "GraphQL ACL - Allowed fields per role",
   "keywords": [
     "graphgq",
@@ -11,11 +11,11 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jakubchadim/graphgl-acl"
+    "url": "https://github.com/jakubchadim/graphql-acl"
   },
   "author": "Jakub Chadim",
   "license": "MIT",
-  "homepage": "https://github.com/jakubchadim/graphgl-acl#readme",
+  "homepage": "https://github.com/jakubchadim/graphql-acl#readme",
   "dependencies": {
     "graphql": "^0.9.6"
   }
