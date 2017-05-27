@@ -80,12 +80,12 @@ const {ROLES, ACL} = require('./acl')
 const createRoot = require('./root')
 
 const userSchema = new GraphQLSchema({
-  description: 'User graphGL',
+  description: 'User graphQL',
   query: createRoot(ACL[ROLES.USER])
 })
 
 const adminSchema = new GraphQLSchema({
-  description: 'Admin graphGL',
+  description: 'Admin graphQL',
   query: createRoot(ACL[ROLES.ADMIN])
 })
 ```
@@ -99,7 +99,7 @@ const { createGraphQLObjectType } = require('graphql-acl')
 const createUser = require('./user')
 
 const user = acl => ({
-  description: 'Steam nickname',
+  description: 'User object',
   type: createUser(acl)
 })
 
