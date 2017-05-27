@@ -69,6 +69,7 @@ Generated schema contains only allowed fields.
 Return function which expect acl as param and generate GraphQLObjectType.
 
 `props` - {Object} - GraphQLObjectType properties
+
 `fields` - {Object} - expect GQL object or function which returns GQL object
 
 ##### index.js
